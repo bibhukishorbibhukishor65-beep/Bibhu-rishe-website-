@@ -1,0 +1,116 @@
+[
+  {
+    "id": "efe6065a-4a59-4cba-96e1-0390819b4c1d",
+    "prompt": "A mysterious lighthouse in an arctic storm shining light on ancient ruins",
+    "duration": "10s",
+    "durationTargetSeconds": 10,
+    "style": "Cinematic 3D",
+    "aspectRatio": "16:9",
+    "story": {
+      "title": "Echoes of the Horizon",
+      "logline": "A cinematic tale inspired by \"A mysterious lighthouse in an arctic storm shining light on ...\" brought to life in Cinematic 3D aesthetic.",
+      "beginning": "Aria Vance embarks across an uncharted threshold, drawn by an undeniable beacon.",
+      "middle": "Navigating uncharted obstacles alongside Kaelen, they unlock revelations at the heart of their quest.",
+      "ending": "A triumph of vision and resolve as new horizons open before them.",
+      "musicMood": "Adventure",
+      "musicTempo": "78 BPM, Steady Cinematic Pulse",
+      "soundscapeAmbience": "Layered environmental wind, subtle spatial resonance, and deep organic drones",
+      "characters": [
+        {
+          "id": "c1",
+          "name": "Aria Vance",
+          "role": "Protagonist",
+          "appearance": "Focused gaze with sharp cinematic features",
+          "clothing": "Technical weathered explorer coat with glowing accents",
+          "personality": "Resolute and analytical",
+          "voiceName": "Zephyr",
+          "colorTone": "#38bdf8"
+        },
+        {
+          "id": "c2",
+          "name": "Kaelen",
+          "role": "Companion / Guide",
+          "appearance": "Tall, vigilant with silver-streaked hair",
+          "clothing": "Heavy armored tactical vest",
+          "personality": "Pragmatic and cautious",
+          "voiceName": "Fenrir",
+          "colorTone": "#a855f7"
+        }
+      ],
+      "scenes": [
+        {
+          "sceneNumber": 1,
+          "title": "Opening: The Journey Begins",
+          "durationSeconds": 5,
+          "location": "Highland Vista",
+          "environment": "Cinematic 3D environment with layered atmospheric depth",
+          "lighting": "Moody twilight cinematic illumination with cyan accents",
+          "weather": "Clear with atmospheric mist and floating motes",
+          "cameraShot": "Establishing shot",
+          "cameraMovement": "Slow push in",
+          "characterIds": [
+            "c1",
+            "c2"
+          ],
+          "action": "Aria Vance steps forward into frame, observing the shifting horizon as subtle light shifts across the landscape.",
+          "dialogue": [
+            {
+              "id": "d_0_1",
+              "characterId": "c1",
+              "characterName": "Aria Vance",
+              "text": "The coordinates were accurate. We've arrived just in time.",
+              "emotion": "Determined"
+            }
+          ],
+          "soundEffects": [
+            "Distant ambient rumble",
+            "Wind whistling across ridges",
+            "Resonant low tone"
+          ],
+          "visualDescription": "Cinematic 3D composition: vast panoramic setting with dramatic volumetric shafts of light breaking across ancient architecture. High atmospheric haze and subtle dust motes catch the rim light."
+        },
+        {
+          "sceneNumber": 2,
+          "title": "Finale: Horizons Unveiled",
+          "durationSeconds": 5,
+          "location": "Highland Vista",
+          "environment": "Cinematic 3D environment with layered atmospheric depth",
+          "lighting": "Golden hour warm rim lighting with long shadows",
+          "weather": "Clear with atmospheric mist and floating motes",
+          "cameraShot": "Medium shot",
+          "cameraMovement": "Tracking pan",
+          "characterIds": [
+            "c1",
+            "c2"
+          ],
+          "action": "Aria Vance and Kaelen stand side by side as the sky shifts into breathtaking golden hour tones, revealing the grand destination ahead.",
+          "dialogue": [
+            {
+              "id": "d_1_1",
+              "characterId": "c2",
+              "characterName": "Kaelen",
+              "text": "Everything changes from this moment onward.",
+              "emotion": "Awe"
+            },
+            {
+              "id": "d_1_2",
+              "characterId": "c1",
+              "characterName": "Aria Vance",
+              "text": "Then let's take the next step together.",
+              "emotion": "Inspiring"
+            }
+          ],
+          "soundEffects": [
+            "Distant ambient rumble",
+            "Wind whistling across ridges",
+            "Grand harmonic chord swell",
+            "Gentle wind gusts"
+          ],
+          "visualDescription": "Cinematic 3D composition: vast panoramic setting with dramatic volumetric shafts of light breaking across ancient architecture. High atmospheric haze and subtle dust motes catch the rim light."
+        }
+      ]
+    },
+    "videoUrl": "/api/videos/efe6065a-4a59-4cba-96e1-0390819b4c1d.mp4",
+    "createdAt": "2026-09-05T01:11:30.834Z"
+  }
+]

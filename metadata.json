@@ -1,0 +1,6 @@
+{
+  "name": "Bibhu kishor Jena",
+  "description": "AI video generation studio",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

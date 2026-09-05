@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <!-- Background Depth Gradient -->
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#080a0f" />
+      <stop offset="60%" stop-color="#1c1917" />
+      <stop offset="100%" stop-color="#080a0f" />
+    </linearGradient>
+
+    <!-- Celestial Horizon Glow -->
+    <radialGradient id="celestialGlow" cx="50%" cy="55%" r="60%">
+      <stop offset="0%" stop-color="#fb923c" stop-opacity="0.35" />
+      <stop offset="50%" stop-color="#38bdf8" stop-opacity="0.12" />
+      <stop offset="100%" stop-color="#000000" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Volumetric Light Beam -->
+    <linearGradient id="lightBeam" x1="0.2" y1="0" x2="0.5" y2="1">
+      <stop offset="0%" stop-color="#fb923c" stop-opacity="0.28" />
+      <stop offset="100%" stop-color="#fb923c" stop-opacity="0.0" />
+    </linearGradient>
+
+    <!-- Vignette filter -->
+    <radialGradient id="vignette" cx="50%" cy="50%" r="70%">
+      <stop offset="65%" stop-color="#000000" stop-opacity="0" />
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.75" />
+    </radialGradient>
+  </defs>
+
+  <!-- Sky Canvas -->
+  <rect width="100%" height="100%" fill="url(#bgGrad)" />
+
+  <!-- Volumetric Beams -->
+  <polygon points="128,0 512,0 896,720 256,720" fill="url(#lightBeam)" />
+  <polygon points="896,0 1216,0 1088,720 576,720" fill="url(#lightBeam)" opacity="0.6" />
+
+  <!-- Celestial Horizon Sphere / Sun -->
+  <circle cx="640" cy="426" r="281.6" fill="url(#celestialGlow)" />
+
+  <!-- Distant Mountain / Megastructure Silhouettes -->
+  <path d="M 0 446 
+           L 192 366 
+           L 409.6 406 
+           L 640 326 
+           L 870.4000000000001 396 
+           L 1088 351 
+           L 1280 446 
+           L 1280 720 
+           L 0 720 Z" 
+        fill="#080b12" opacity="0.85" />
+
+  <!-- 3D Perspective Ground Plane -->
+  <g><line x1="640" y1="446" x2="-1280" y2="720" stroke="#fb923c" stroke-opacity="0.18" stroke-width="1.5" /><line x1="640" y1="446" x2="-1088" y2="720" stroke="#fb923c" stroke-opacity="0.18" stroke-width="1.5" /><line x1="640" y1="446" x2="-896" y2="720" stroke="#fb923c" stroke-opacity="0.18" stroke-width="1.5" /><line x1="640" y1="446" x2="-704" y2="720" stroke="#fb923c" stroke-opacity="0.18" stroke-width="1.5" /><line x1="640" y1="446" x2="-512" y2="720" stroke="#fb923c" stroke-opacity="0.18" stroke-width="1.5" /><line x1="640" y1="446" x2="-320" y2="720" stroke="#fb923c" stroke-opacity="0.18" stroke-width="1.5" /><line x1="640" y1="446" x2="-128" y2="720" stroke="#fb923c" stroke-opacity="0.18" stroke-width="1.5" /><line x1="640" y1="446" x2="64" y2="720" stroke="#fb923c" stroke-opacity="0.18" stroke-width="1.5" /><line x1="640" y1="446" x2="256" y2="720" stroke="#fb923c" stroke-opacity="0.18" stroke-width="1.5" /><line x1="640" y1="446" x2="448" y2="720" stroke="#fb923c" stroke-opacity="0.18" stroke-width="1.5" /><line x1="640" y1="446" x2="640" y2="720" stroke="#fb923c" stroke-opacity="0.18" stroke-width="1.5" /><line x1="640" y1="446" x2="832" y2="720" stroke="#fb923c" stroke-opacity="0.18" stroke-width="1.5" /><line x1="640" y1="446" x2="1024" y2="720" stroke="#fb923c" stroke-opacity="0.18" stroke-width="1.5" /><line x1="640" y1="446" x2="1216" y2="720" stroke="#fb923c" stroke-opacity="0.18" stroke-width="1.5" /><line x1="640" y1="446" x2="1408" y2="720" stroke="#fb923c" stroke-opacity="0.18" stroke-width="1.5" /><line x1="640" y1="446" x2="1600" y2="720" stroke="#fb923c" stroke-opacity="0.18" stroke-width="1.5" /><line x1="640" y1="446" x2="1792" y2="720" stroke="#fb923c" stroke-opacity="0.18" stroke-width="1.5" /><line x1="640" y1="446" x2="1984" y2="720" stroke="#fb923c" stroke-opacity="0.18" stroke-width="1.5" /><line x1="640" y1="446" x2="2176" y2="720" stroke="#fb923c" stroke-opacity="0.18" stroke-width="1.5" /><line x1="640" y1="446" x2="2368" y2="720" stroke="#fb923c" stroke-opacity="0.18" stroke-width="1.5" /><line x1="640" y1="446" x2="2560" y2="720" stroke="#fb923c" stroke-opacity="0.18" stroke-width="1.5" /><line x1="0" y1="466" x2="1280" y2="466" stroke="#fb923c" stroke-opacity="0.14" stroke-width="1.2" /><line x1="0" y1="509.84000000000003" x2="1280" y2="509.84000000000003" stroke="#fb923c" stroke-opacity="0.14" stroke-width="1.2" /><line x1="0" y1="553.6800000000001" x2="1280" y2="553.6800000000001" stroke="#fb923c" stroke-opacity="0.14" stroke-width="1.2" /><line x1="0" y1="597.5200000000001" x2="1280" y2="597.5200000000001" stroke="#fb923c" stroke-opacity="0.14" stroke-width="1.2" /><line x1="0" y1="641.3600000000001" x2="1280" y2="641.3600000000001" stroke="#fb923c" stroke-opacity="0.14" stroke-width="1.2" /><line x1="0" y1="685.2000000000002" x2="1280" y2="685.2000000000002" stroke="#fb923c" stroke-opacity="0.14" stroke-width="1.2" /></g>
+
+  <!-- Atmospheric Motes -->
+  <g><circle cx="640" cy="540" r="1.2" fill="#ffffff" opacity="0.2" filter="drop-shadow(0 0 4px #fb923c)" /><circle cx="64.45686350866026" cy="280.19429200373344" r="2" fill="#ffffff" opacity="0.33" filter="drop-shadow(0 0 4px #fb923c)" /><circle cx="594.1627312013727" cy="36.48356410573797" r="2.8" fill="#ffffff" opacity="0.46" filter="drop-shadow(0 0 4px #fb923c)" /><circle cx="1211.8925756945832" cy="311.387167161761" r="1.2" fill="#ffffff" opacity="0.5900000000000001" filter="drop-shadow(0 0 4px #fb923c)" /><circle cx="731.3838005075436" cy="538.0675994043844" r="2" fill="#ffffff" opacity="0.72" filter="drop-shadow(0 0 4px #fb923c)" /><circle cx="75.38539108517966" cy="249.1211291852391" r="2.8" fill="#ffffff" opacity="0.8500000000000001" filter="drop-shadow(0 0 4px #fb923c)" /><circle cx="503.6492978728245" cy="40.34094910993775" r="1.2" fill="#ffffff" opacity="0.28" filter="drop-shadow(0 0 4px #fb923c)" /><circle cx="1193.755398912967" cy="342.2213647344461" r="2" fill="#ffffff" opacity="0.41000000000000003" filter="drop-shadow(0 0 4px #fb923c)" /><circle cx="820.4527571415118" cy="532.3000339037436" r="2.8" fill="#ffffff" opacity="0.54" filter="drop-shadow(0 0 4px #fb923c)" /><circle cx="100.61617640452164" cy="218.64423266134241" r="1.2" fill="#ffffff" opacity="0.6699999999999999" filter="drop-shadow(0 0 4px #fb923c)" /><circle cx="416.58976540770925" cy="47.99656028437198" r="2" fill="#ffffff" opacity="0.8" filter="drop-shadow(0 0 4px #fb923c)" /><circle cx="1161.591039134873" cy="372.2239956602429" r="2.8" fill="#ffffff" opacity="0.23" filter="drop-shadow(0 0 4px #fb923c)" /><circle cx="904.9506633593364" cy="522.7857578394163" r="1.2" fill="#ffffff" opacity="0.36" filter="drop-shadow(0 0 4px #fb923c)" /><circle cx="139.51009821655703" cy="189.2310117415298" r="2" fill="#ffffff" opacity="0.49" filter="drop-shadow(0 0 4px #fb923c)" /><circle cx="335.189439606879" cy="59.33298725131624" r="2.8" fill="#ffffff" opacity="0.62" filter="drop-shadow(0 0 4px #fb923c)" /><circle cx="1116.2142520474827" cy="400.9349242100161" r="1.2" fill="#ffffff" opacity="0.75" filter="drop-shadow(0 0 4px #fb923c)" /><circle cx="982.7371019377028" cy="509.6706870267482" r="2" fill="#ffffff" opacity="0.8800000000000001" filter="drop-shadow(0 0 4px #fb923c)" /><circle cx="191.0819342376218" cy="161.33256266091576" r="2.8" fill="#ffffff" opacity="0.31" filter="drop-shadow(0 0 4px #fb923c)" /><circle cx="261.5102728562113" cy="74.1763687550318" r="1.2" fill="#ffffff" opacity="0.44" filter="drop-shadow(0 0 4px #fb923c)" /><circle cx="1058.7744774531288" cy="427.9138248644779" r="2" fill="#ffffff" opacity="0.5700000000000001" filter="drop-shadow(0 0 4px #fb923c)" /><circle cx="1051.8416639005093" cy="493.1559609153421" r="2.8" fill="#ffffff" opacity="0.7" filter="drop-shadow(0 0 4px #fb923c)" /><circle cx="254.02531782505804" cy="135.37675033712026" r="1.2" fill="#ffffff" opacity="0.8300000000000001" filter="drop-shadow(0 0 4px #fb923c)" /><circle cx="197.41863279215437" cy="92.29905908711604" r="2" fill="#ffffff" opacity="0.26" filter="drop-shadow(0 0 4px #fb923c)" /><circle cx="990.726722799311" cy="452.7469353720907" r="2.8" fill="#ffffff" opacity="0.39" filter="drop-shadow(0 0 4px #fb923c)" /><circle cx="1110.5138609663836" cy="473.4948578113416" r="1.2" fill="#ffffff" opacity="0.52" filter="drop-shadow(0 0 4px #fb923c)" /></g>
+
+  <!-- Characters -->
+  <g>
+      <g transform="translate(486.4, 436) scale(0.95)">
+        <!-- Ground Shadow -->
+        <ellipse cx="0" cy="120" rx="45" ry="12" fill="#000000" opacity="0.65" filter="blur(6px)" />
+        
+        <!-- Character Body Silhouette -->
+        <path d="M -22 35 L -16 -40 L 0 -55 L 16 -40 L 22 35 L 14 115 L -14 115 Z" fill="#0b0e14" stroke="#38bdf8" stroke-width="2" stroke-opacity="0.8" />
+        
+        <!-- Cloak / Coat flow -->
+        <path d="M -18 10 Q -38 65 -25 110 L 25 110 Q 38 65 18 10 Z" fill="#0e131d" opacity="0.9" />
+
+        <!-- Head / Visor -->
+        <circle cx="0" cy="-68" r="16" fill="#0b0e14" stroke="#38bdf8" stroke-width="2" />
+        <rect x="-8" y="-72" width="16" height="6" rx="3" fill="#38bdf8" opacity="0.95" filter="drop-shadow(0 0 8px #38bdf8)" />
+
+        <!-- Luminescent Chest Core -->
+        <circle cx="0" cy="-10" r="5" fill="#38bdf8" opacity="0.9" filter="drop-shadow(0 0 10px #38bdf8)" />
+
+        <!-- Character Name Label -->
+        <rect x="-60" y="132" width="120" height="22" rx="4" fill="#000000" fill-opacity="0.7" stroke="#38bdf8" stroke-width="1" stroke-opacity="0.4" />
+        <text x="0" y="147" fill="#ffffff" font-size="11" font-weight="600" text-anchor="middle" font-family="'Outfit', sans-serif" letter-spacing="1">
+          ARIA VANCE
+        </text>
+      </g>
+    
+      <g transform="translate(793.6, 436) scale(0.9)">
+        <!-- Ground Shadow -->
+        <ellipse cx="0" cy="120" rx="45" ry="12" fill="#000000" opacity="0.65" filter="blur(6px)" />
+        
+        <!-- Character Body Silhouette -->
+        <path d="M -22 35 L -16 -40 L 0 -55 L 16 -40 L 22 35 L 14 115 L -14 115 Z" fill="#0b0e14" stroke="#a855f7" stroke-width="2" stroke-opacity="0.8" />
+        
+        <!-- Cloak / Coat flow -->
+        <path d="M -18 10 Q -38 65 -25 110 L 25 110 Q 38 65 18 10 Z" fill="#0e131d" opacity="0.9" />
+
+        <!-- Head / Visor -->
+        <circle cx="0" cy="-68" r="16" fill="#0b0e14" stroke="#a855f7" stroke-width="2" />
+        <rect x="-8" y="-72" width="16" height="6" rx="3" fill="#a855f7" opacity="0.95" filter="drop-shadow(0 0 8px #a855f7)" />
+
+        <!-- Luminescent Chest Core -->
+        <circle cx="0" cy="-10" r="5" fill="#a855f7" opacity="0.9" filter="drop-shadow(0 0 10px #a855f7)" />
+
+        <!-- Character Name Label -->
+        <rect x="-60" y="132" width="120" height="22" rx="4" fill="#000000" fill-opacity="0.7" stroke="#a855f7" stroke-width="1" stroke-opacity="0.4" />
+        <text x="0" y="147" fill="#ffffff" font-size="11" font-weight="600" text-anchor="middle" font-family="'Outfit', sans-serif" letter-spacing="1">
+          KAELEN
+        </text>
+      </g>
+    </g>
+
+  <!-- Cinema Vignette -->
+  <rect width="100%" height="100%" fill="url(#vignette)" />
+
+  <!-- Cinema HUD & Metadata Framing -->
+  <!-- Top Left: Scene Number & Shot -->
+  <rect x="28" y="24" width="220" height="42" rx="6" fill="#000000" fill-opacity="0.6" stroke="#fb923c" stroke-width="1" stroke-opacity="0.3" />
+  <text x="42" y="44" fill="#fb923c" font-size="11" font-weight="700" font-family="'JetBrains Mono', monospace" letter-spacing="1.5">
+    SCENE 1 • ESTABLISHING SHOT
+  </text>
+  <text x="42" y="58" fill="#94a3b8" font-size="10" font-family="'Outfit', sans-serif">
+    Slow push in
+  </text>
+
+  <!-- Top Right: Style & Aspect Ratio Badge -->
+  <rect x="1090" y="24" width="162" height="32" rx="6" fill="#000000" fill-opacity="0.6" stroke="rgba(255,255,255,0.15)" stroke-width="1" />
+  <text x="1171" y="45" fill="#f8fafc" font-size="11" font-weight="600" text-anchor="middle" font-family="'Outfit', sans-serif" letter-spacing="0.5">
+    Cinematic 3D • 16:9
+  </text>
+
+  <!-- Bottom Banner: Scene Action Title -->
+  <rect x="28" y="656" width="1224" height="42" rx="6" fill="#000000" fill-opacity="0.7" stroke="rgba(255,255,255,0.1)" stroke-width="1" />
+  <text x="45" y="682" fill="#ffffff" font-size="14" font-weight="600" font-family="'Outfit', sans-serif">
+    Opening: The Journey Begins
+  </text>
+  <text x="1235" y="682" fill="#fb923c" font-size="12" font-weight="500" text-anchor="end" font-family="'JetBrains Mono', monospace">
+    5s
+  </text>
+</svg>
